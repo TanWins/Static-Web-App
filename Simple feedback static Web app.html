@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+  <title>Simple Feedback Widget</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      display: flex;
+      height: 100vh;
+      justify-content: center;
+      align-items: center;
+      background: #f7f7f7;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      text-align: center;
+      width: 300px;
+    }
+    .emoji {
+      font-size: 2em;
+      cursor: pointer;
+      transition: transform 0.2s;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="card">
+    <h2>Hey, how was your experience?</h2>
+    <div>
+      <span class="emoji">😾</span>
+      <span class="emoji">😺</span>
+      <span class="emoji">😼</span>
+    </div>
+    <p>(Click an emoji — pretend it sends feedback!)</p>
+  </div>
+</body>
+</html>
